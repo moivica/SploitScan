@@ -42,7 +42,8 @@ python sploitscan.py CVE-YYYY-NNNNN -e JSON
 
 **Docker** 
 
-```docker build -t sploitscan .
+```
+docker build -t sploitscan .
 docker run --rm sploitscan CVE-2021-44228
 ```
 
