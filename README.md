@@ -40,6 +40,12 @@ python sploitscan.py CVE-YYYY-NNNNN CVE-YYYY-NNNNN
 python sploitscan.py CVE-YYYY-NNNNN -e JSON
 ```
 
+**Docker** 
+
+```docker build -t sploitscan .
+docker run --rm sploitscan CVE-2021-44228
+```
+
 ## 🛡️ Patching Prioritization System
 
 The Patching Prioritization System in SploitScan provides a strategic approach to prioritizing security patches based on the severity and exploitability of vulnerabilities. It's influenced by the model from [CVE Prioritizer](https://github.com/TURROKS/CVE_Prioritizer), with enhancements for handling publicly available exploits. Here's how it works:
@@ -84,4 +90,4 @@ Contributions are welcome. Please feel free to fork, modify, and make pull reque
 
 ## ⚠️ Disclaimer
 
-This tool is meant for educational and professional purposes only.
+This tool is meant for educational and professional purposes only
